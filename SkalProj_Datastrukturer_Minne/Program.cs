@@ -32,9 +32,7 @@ namespace SkalProj_Datastrukturer_Minne
                 switch (input)
                 {
                     case '1':
-                        Console.Clear();
                         ExamineList();
-                        //test();
                         break;
                     case '2':
                         ExamineQueue();
