@@ -74,7 +74,7 @@ namespace SkalProj_Datastrukturer_Minne
                     "m Back to menue");
                 try
                 {
-                    string? listInput = Console.ReadLine();
+                    string? listInput = Console.ReadLine(); 
                     firstChar = listInput[0];
                     value = listInput.Substring(1).Trim();
                 }
